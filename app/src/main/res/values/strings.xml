@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="error_no_todo">To-Do</string>
+    <string name="error_no_todo_description">Add some To-Do goals!</string>
+
+</resources>

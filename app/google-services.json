@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998080101548",
+    "firebase_url": "https://todolist-179fb.firebaseio.com",
+    "project_id": "todolist-179fb",
+    "storage_bucket": "todolist-179fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998080101548:android:c3bc296ad75c783e327309",
+        "android_client_info": {
+          "package_name": "com.rutvik.apps.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998080101548-n4ilqae6r0m16ci77ev7dsre8fcqbbs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVi0_F-_rRTYZtvbvJ8bSvhSNS1y2BjfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998080101548-n4ilqae6r0m16ci77ev7dsre8fcqbbs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

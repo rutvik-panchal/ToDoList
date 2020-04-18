@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.NotesDetailActivity">
+
+    <TextView
+        android:id="@+id/textViewNotesTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNotesDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Description"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNotesTitle"
+        app:layout_constraintStart_toStartOf="@+id/textViewNotesTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotesTitle" />
+
+    <ImageView
+        android:id="@+id/imageViewNotesDetail"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNotesDescription"
+        app:layout_constraintStart_toStartOf="@+id/textViewNotesDescription"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotesDescription"
+        app:srcCompat="@android:drawable/screen_background_light_transparent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
